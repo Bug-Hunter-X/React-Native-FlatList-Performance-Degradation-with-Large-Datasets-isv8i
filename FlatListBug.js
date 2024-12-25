@@ -1,0 +1,1 @@
+This bug occurs when using the `FlatList` component in React Native with a large dataset.  The performance degrades significantly, causing lag and jank, especially on lower-end devices.  The root cause is often inefficient rendering of list items.  Each item re-renders even when its data hasn't changed, leading to unnecessary computations and UI updates.
